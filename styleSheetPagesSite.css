@@ -1,0 +1,155 @@
+body{
+    background-color:#FDF5E6;
+}
+#IDTempoTexteDescr{margin-bottom: 10px;}
+
+#IDJumboThumb {background-color:#d3d3d3;}
+#IDRowThumb {height:145px;
+        width:100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        }
+#IDButton{height:60px;
+    width:100%;}
+#IDContButton{height:140px;}
+
+#IDMenu{
+    margin-bottom: 15px;
+    font-family: 'cubicalFont';}
+
+
+.form-group{
+    margin-bottom: 6px;
+}
+
+.form-horizontal{
+    margin-bottom: 30px;
+}
+
+
+#infoMdp{padding-left: 15px;
+padding-right: 15px;
+text-align: left;}
+
+#overlay {
+    display : none ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    background-color: rgba(0,0,0,0.6);
+}
+
+#inOverlay {
+    margin-top:50px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imgOverlay img {
+    height: 50%;
+    width: 50%;
+}
+
+#labelForm{padding-right: 0px}
+#formForm {padding-left: 0px}
+
+@media (max-width: 1200px) {
+    .control-label {
+      padding-right:0px;
+      padding-top:0px;
+    }
+}
+
+    @media (min-width: 768px){
+.form-horizontal .control-label {
+    padding-top: 0px;}
+}
+
+.infoErreur{height: 30px;}
+
+br{height:35px;}
+
+#erreurMail{padding-left: 15px; text-align: left; }
+#erreurPseudo{padding-left: 15px;text-align: left;}
+#erreurMDP{padding-left: 15px;text-align: left;}
+#erreurCheckMDP{padding-left: 15px;text-align: left;}
+
+h1{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'cubicalFont';
+    src: url(fonts/GAU_cube_B.TTF);
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -26px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 26px; /* .push must be the same height as .footer */
+}
+
+.footer{
+    overflow-y: hidden;
+    background-color: rgba(149,183,221,0.9);
+}
+
+.container-fluid{
+    background-color: rgba(141,188,150,0.8);
+}
+
+#buttonmenu{
+    background-color: rgba(221,217,129,0.8);
+}
+
+#fakeadresse{
+    color:#DAE2E1;
+}
+
+.navbar-default .navbar-brand,.navbar-default .navbar-text{
+    color:#333;
+}
+
+#titre{
+    font-family: 'cubicalFont';
+}
+
+/*formulaireConnexion.php*/
+#msgCo{
+    display: none;
+    color:firebrick;
+    font-size: 20px;
+}
+
+#buttoncompte
+{
+        color:#fff;
+        background-color: #337ab7;
+    border-color: #2e6da4;
+
+}
+
+#nomCompte
+{
+    background-color: rgba(141,188,150,0.8);
+}
+
+.well{
+    background-color: rgba(221,217,129,0.8);
+}
